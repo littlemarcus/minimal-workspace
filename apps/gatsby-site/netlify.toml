@@ -1,7 +1,7 @@
 # example netlify.toml
 [build]
   command = "yarn workspace gatsby-site build"
-  functions = "apps/gatsby-site/netlify/functions"
+  functions = "/netlify/functions"
   publish = "apps/gatsby-site/public"
 
 [[plugins]]
